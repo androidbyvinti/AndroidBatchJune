@@ -1,0 +1,31 @@
+Layout--> 
+
+Parent-->
+diff layouts: constraint layout -->2.3
+
+simple--> Relative Layout--> by default--> (left-0,top-0)
+
+sp--> scalable pixels--> text size
+
+Key : value
+
+
+java--> java files--> MainActivity.java
+
+layout--> 
+
+res--> images, app icon, .mp3, mp4, colors, styles, etc
+
+--> drawable--> images
+--> layout--> app ui
+--> mipmap--> app icon--> 
+
+
+steps:
+
+3 steps:
+
+step-1: downcasting
+step-2: attach listener
+step-3: attach handler 
+Exceptions--> Null pointer exception
