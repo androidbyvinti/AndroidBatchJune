@@ -1,0 +1,17 @@
+
+Steps to Run app on phone via USB:
+
+https://developer.android.com/studio/run/oem-usb.html
+
+
+Screen-1:
+
+https://play.google.com/store/apps/details?id=com.ted.android&hl=en
+
+Screen 2:
+
+https://play.google.com/store/apps/details?id=com.kooapps.pictowordandroid&hl=en
+
+Screen 3:
+
+https://play.google.com/store/apps/details?id=education.englishforkid.leaningenglish&hl=en
