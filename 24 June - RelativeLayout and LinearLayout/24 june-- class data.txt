@@ -1,0 +1,41 @@
+Layouts--> 
+
+RelativeLayout--> simplest
+
+relative to the position of other child elements and parent
+
+adv:
+
+avoid nested layouts
+drag and drop--> no of attributes--> layout_below
+
+dis:
+
+LinearLayout--> vertically or horizontally
+
+must nested layouts
+
+orientation="vertical/horizontal"
+
+------------> check current widget width and height 
+gravity--> inner elements position
+layout_gravity--> outside 
+
+
+layout_weight
+
+
+
+FrameLayout
+TableLayout
+
+ConstraintLayout
+CoordinatorLayout
+, etc
+
+ViewGroup--> predefined class--> 
+diff view(button, edittext, etc) and diff viewgroup--> layout --> layout
+
+collection of data--> Layout--> 
+
+View--> predefined class--> single data--> buttons, edittext, textview, etc.
