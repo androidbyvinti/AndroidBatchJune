@@ -1,0 +1,18 @@
+Intent--> very imp 
+
+
+switch from one activity to another activity, 
+predefined service call, broadcasts , 
+data share from one app to another app
+
+
+2 types:
+
+--> Implicit Intent--> Automatically
+
+communication outside app
+
+
+--> Explicit Intent--> Forcefully-->
+
+communication or data share within app
