@@ -1,0 +1,21 @@
+Log --> machine level info, debug info, warn info, error 
+
+
+Modes of Log-->
+
+Modes			Priority
+
+verbose(machine level)	Min. verbose
+debug
+info
+warn
+error (2 types)			max. priority
+assert(stop)			max. priority			
+
+
+Log.d(String TAG, String MESSAGE);
+
+TAG--> method name/variable name/ class name
+MESSAGE--> my method is executed
+
+ListView--> 
