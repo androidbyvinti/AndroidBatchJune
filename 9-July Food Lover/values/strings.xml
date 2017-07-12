@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Food Lover</string>
+    <string name="question1">"Which food you love the most?"</string>
+    <string name="choleBature">Chole Bature</string>
+    <string name="pavBhaji">Pav Bhaji</string>
+    <string name="Pizza">Pizza</string>
+    <string name="question2">"How much foody you are?"</string>
+    <string name="userRating">"0/10"</string>
+    <string name="question3">Favorite Desert?</string>
+    <string name="gulabJamun">Gulab Jamun</string>
+    <string name="kajuKatli">Kaju Katli</string>
+    <string name="jalebi">Jalebi</string>
+    <string name="submit">Submit</string>
+</resources>

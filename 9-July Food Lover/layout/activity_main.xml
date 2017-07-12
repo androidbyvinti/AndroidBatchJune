@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.foodlover.MainActivity"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:text="@string/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        style="@style/fontstyle"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/pavBhaji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pavBhaji" />
+
+    <RadioButton
+        android:id="@+id/pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pizza" />
+
+        <RadioButton
+            android:id="@+id/choleBature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choleBature" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="@dimen/padding"
+        android:text="@string/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        style="@style/fontstyle"/>
+
+    <SeekBar
+        android:max="10"
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"/>
+
+    <TextView
+        android:id="@+id/ratingTextView"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userRating"
+        style="@style/fontstyle"
+        android:textSize="@dimen/textsize"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/padding"
+        android:text="@string/question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        style="@style/fontstyle"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gulabJamun"/>
+
+    <CheckBox
+
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kajuKatli"/>
+
+    <CheckBox
+
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jalebi"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize"/>
+
+</LinearLayout>
+
+</ScrollView>
